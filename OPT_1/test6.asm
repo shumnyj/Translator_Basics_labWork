@@ -1,0 +1,46 @@
+;SP1
+DATA SEGMENT
+ IDEN1 dd ?
+ IDEN1 dd ?; !ERROR! identifier IDEN1 is already declared
+DATA ENDS
+
+CODE SEGMENT
+ ASSUME ds:DATA, cs:CODE
+ begin:
+ MOV AX, DATA
+ MOV DS,AX
+
+ MOV EAX,0
+ NOP
+ ;empty MOV EBX, EAX; bottom
+ MOV EAX,2
+ IMUL EAX,5
+ IMUL EAX,YEET ;!ERROR! variable YEET is not declared
+ NOP
+ ;empty XCHG EBX, EAX ; top
+
+ MOV IDEN1,EAX
+ MOV EAX,EBX
+ CMP EAX,IDEN1
+ JL ?L0
+ MOV EDX,1
+ SUB EAX, IDEN1
+ INC EAX
+ MOV ECX, EAX
+?L1: NOP
+ NOP
+
+ MOV EAX, IDEN1
+ DEC EAX
+ MOV IDEN1,EAX
+ LOOP ?L1
+?L0: NOP
+
+ NOP
+
+ MOV AX, 4c00h
+ INT 21h
+CODE ENDS
+ END begin
+
+

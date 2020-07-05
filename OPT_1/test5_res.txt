@@ -1,0 +1,4 @@
+Lexic analysis:
+Syntax analysis:
+ ---ERROR---   Tokens after the end of program                   
+

@@ -1,0 +1,13 @@
+PROGRAM SP1;
+	VAR
+	IDEN1 : INTEGER ;
+	AB : FLOAT EXT;
+	BEGIN
+		FOR IDEN1 := 0 TO 2*5 DO
+			FOR AB := 1 TO IDEN1*5 MOD 23 DO
+			ENDFOR;
+			(*comment *** content*)
+		ENDFOR;
+		(* another
+		comment ***)
+	END.

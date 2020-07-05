@@ -1,0 +1,33 @@
+    <signal-program>
+        <program>
+            PROGRAM
+            <procedure-identifier>
+                <identifier>
+                    SP5
+            ;
+            <block>
+                <variable-declarations>
+                    VAR
+                    <declarations-list>
+                        <declaration>
+                            <variable-identifier>
+                                <identifier>
+                                    IDEN1
+                            :
+                            <attribute>
+                                INTEGER
+                            <attributes-list>
+                                <--empty-->
+                            ;
+                        <declarations-list>
+                            <declaration>
+                                <variable-identifier>
+                                    <identifier>
+                                        I2345
+                                :
+                                ; (* skipped attribute*)coordinates: 9 4 ---ERROR---   Unexpected token                                
+
+                            <declarations-list>
+                coordinates: 0 0 ---ERROR---   Unexpected token                                
+
+fier>

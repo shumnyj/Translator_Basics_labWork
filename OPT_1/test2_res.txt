@@ -1,0 +1,8 @@
+Lexic analysis:
+Unidentified token on position 2 4
+Unidentified token on position 23 7
+Unidentified token on position 32 10
+Unexpected end of file on position 7 14
+ Syntax analysis:
+coordinates: 2 4 ---ERROR---   Unknown token                                   
+

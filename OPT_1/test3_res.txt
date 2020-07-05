@@ -1,0 +1,6 @@
+Lexic analysis:
+Syntax analysis:
+coordinates: 9 4 ---ERROR---   Unexpected token                                
+
+coordinates: 0 0 ---ERROR---   Unexpected token                                
+

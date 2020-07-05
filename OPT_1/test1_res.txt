@@ -1,0 +1,3 @@
+Lexic analysis:
+Syntax analysis:
+Semantic analysis:

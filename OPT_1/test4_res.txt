@@ -1,0 +1,4 @@
+Lexic analysis:
+Syntax analysis:
+coordinates: 2 6 ---ERROR---   Unexpected end of file, syntax unfinished        
+

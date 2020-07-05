@@ -1,0 +1,5 @@
+Lexic analysis:
+Syntax analysis:
+Semantic analysis:
+!ERROR! identifier IDEN1 is already declared
+!ERROR! variable YEET is not declared

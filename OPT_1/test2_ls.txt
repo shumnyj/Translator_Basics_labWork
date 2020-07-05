@@ -1,0 +1,25 @@
+    <signal-program>
+        <program>
+            PROGRAM
+            <procedure-identifier>
+                <identifier>
+                    SP2
+            ;
+            <block>
+                <variable-declarations>
+                    VAR
+                    <declarations-list>
+                        <declaration>
+                            <variable-identifier>
+                                <identifier>
+                                    IDEN1
+                            :
+                            <attribute>
+                                INTEGER
+                            <attributes-list>
+                                <--empty-->
+                            ;
+                        <declarations-list>
+                            <--empty-->
+                2345AB coordinates: 2 4 ---ERROR---   Unknown token                                   
+

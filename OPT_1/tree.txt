@@ -1,0 +1,82 @@
+_<signal-program>
+  |_<program>
+     |_PROGRAM
+     |_<procedure-identifier>
+     |  |_<identifier>
+     |     |_SP5
+     |_;
+     |_<block>
+     |  |_<variable-declarations>
+     |  |  |_VAR
+     |  |  |_<declarations-list>
+     |  |     |_<declaration>
+     |  |     |  |_<variable-identifier>
+     |  |     |  |  |_<identifier>
+     |  |     |  |     |_IDEN1
+     |  |     |  |_:
+     |  |     |  |_<attribute>
+     |  |     |  |  |_INTEGER
+     |  |     |  |_<attributes-list>
+     |  |     |  |  |_<--empty-->
+     |  |     |  |_;
+     |  |     |_<declarations-list>
+     |  |        |_<declaration>
+     |  |        |  |_<variable-identifier>
+     |  |        |  |  |_<identifier>
+     |  |        |  |     |_VARIABLE
+     |  |        |  |_:
+     |  |        |  |_<attribute>
+     |  |        |  |  |_INTEGER
+     |  |        |  |_<attributes-list>
+     |  |        |  |  |_<attribute>
+     |  |        |  |  |  |_SIGNAL
+     |  |        |  |  |_<attributes-list>
+     |  |        |  |     |_<--empty-->
+     |  |        |  |_;
+     |  |        |_<declarations-list>
+     |  |           |_<--empty-->
+     |  |_BEGIN
+     |  |_<statements-list>
+     |  |  |_<statement>
+     |  |  |  |_FOR
+     |  |  |  |_<variable-identifier>
+     |  |  |  |  |_<identifier>
+     |  |  |  |     |_VARIABLE
+     |  |  |  |_:=
+     |  |  |  |_<loop-declaration>
+     |  |  |  |  |_<expression>
+     |  |  |  |  |  |_<multiplier>
+     |  |  |  |  |  |  |_<unsigned-integer>
+     |  |  |  |  |  |     |_1
+     |  |  |  |  |  |_<multipliers-list>
+     |  |  |  |  |     |_<--empty-->
+     |  |  |  |  |_TO
+     |  |  |  |  |_<expression>
+     |  |  |  |  |  |_<multiplier>
+     |  |  |  |  |  |  |_<variable-identifier>
+     |  |  |  |  |  |     |_<identifier>
+     |  |  |  |  |  |        |_IDEN1
+     |  |  |  |  |  |_<multipliers-list>
+     |  |  |  |  |     |_<multiplication-instruction>
+     |  |  |  |  |     |  |_*
+     |  |  |  |  |     |_<multiplier>
+     |  |  |  |  |     |  |_<unsigned-integer>
+     |  |  |  |  |     |     |_5
+     |  |  |  |  |     |_<multipliers-list>
+     |  |  |  |  |        |_<multiplication-instruction>
+     |  |  |  |  |        |  |_MOD
+     |  |  |  |  |        |_<multiplier>
+     |  |  |  |  |        |  |_<unsigned-integer>
+     |  |  |  |  |        |     |_23
+     |  |  |  |  |        |_<multipliers-list>
+     |  |  |  |  |           |_<--empty-->
+     |  |  |  |  |_DO
+     |  |  |  |  |_<statements-list>
+     |  |  |  |     |_<--empty-->
+     |  |  |  |_ENDFOR
+     |  |  |  |_;
+     |  |  |_<statements-list>
+     |  |     |_<--empty-->
+     |  |_END
+     |_.
+     |_<---ERROR--->

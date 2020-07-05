@@ -1,0 +1,9 @@
+PROGRAM SP1;
+	VAR
+	IDEN1 : INTEGER ;
+	IDEN1 : FLOAT EXT;
+	BEGIN
+		FOR IDEN1 := 0 TO 2*5*YEET DO
+			(*comment *** content*)
+		ENDFOR;
+	END.

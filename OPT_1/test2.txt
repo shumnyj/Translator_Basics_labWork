@@ -1,0 +1,14 @@
+PROGRAM SP2;
+	VAR
+	IDEN1 : INTEGER ;
+	2345AB : FLOAT EXT;
+	VARIABLE : INTEGER SIGNAL;
+	BEGIN
+		FOR IDEN1 := 0 TO 2*5DO
+			(*comment *** content*)
+		ENDFOR;
+		FOR VARIABLE := 1 TO IDEN1*5 + 23
+		ENDFOR;
+		(* another
+		comment
+	END.
